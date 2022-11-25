@@ -2,7 +2,7 @@
 
 This repository holds the release versions of code and files for the final Little Time Buddy Showcase
 
-Insert descriptions of each file, see the "Action List" file for code and file tasks needing implementation
+Insert descriptions of each file, see the "actionNeeded" file for code and file tasks needing implementation
 
 1. "ltb_releaseF_rev0.py" : Untested but fully integrated Little Time Buddy release code (2022-11-25)
 2. "ltb " folder: Place this folder on the Pi Zero Desktop. It holds the .csv spreadsheet files needed for the LTB code operation
