@@ -1,0 +1,5 @@
+# Actions needed for the Little Time Buddy Showcase
+
+1. Finish the Focus Timer functionality
+2. For the assembled device, comment out time hungry print statements that are used for debugging code on the the serial monitor, and create a new revision.
+3. Implement the real time clock to the code image
