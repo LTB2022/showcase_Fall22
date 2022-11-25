@@ -5,8 +5,8 @@ This repository holds the release versions of code and files for the final Littl
 Insert descriptions of each file, see the "actionNeeded" file for code and file tasks needing implementation
 
 1. "ltb_releaseF_rev0.py" : Untested but fully integrated Little Time Buddy release code (2022-11-25)
-2. "ltb " folder: Place this folder on the Pi Zero Desktop. It holds the .csv spreadsheet files needed for the LTB code operation
-3. " ": Spreadsheet file for Profile 1, Task 1. Place into the folder above
-4. " ": Spreadsheet file for Profile 1, Task 2. Place into the folder above
-5. " ": Spreadsheet file for Profile 2, Task 1. Place into the folder above
-6. " ": Spreadsheet file for Profile 2, Task 2. Place into the folder above
+2. "ltb_f22_release" folder: Place this folder on the Pi Zero Desktop. It holds the .csv spreadsheet files needed for the LTB code operation
+3. "P1_t1.csv": Spreadsheet file for Profile 1, Task 1. Place into the folder above
+4. "P1_t2.csv": Spreadsheet file for Profile 1, Task 2. Place into the folder above
+5. "P2_t1.csv": Spreadsheet file for Profile 2, Task 1. Place into the folder above
+6. "P2_t2.csv": Spreadsheet file for Profile 2, Task 2. Place into the folder above
