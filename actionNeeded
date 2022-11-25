@@ -7,7 +7,7 @@
 
 NOTES:
 
-Quit the fullscreen LTB screeb with alt + F4, then if needed, kill the running code with ctrl + c
+Quit the fullscreen LTB GUI with alt + F4, then if needed, kill the running code with ctrl + c
 
 * Indivdual spreadsheet entries can be corrupted if the program is exited while logging a task. Further entries will not be affected since they start on new lines.
 Delete the erroneous entries prior to presenting the data.
