@@ -3,3 +3,7 @@
 1. Finish the Focus Timer functionality
 2. For the assembled device, comment out time hungry print statements that are used for debugging code on the the serial monitor, and create a new revision.
 3. Implement the real time clock to the code image
+
+NOTES:
+* Indivdual spreadsheet entries can be corrupted if the program is exited while logging a task. Further entries will not be affected since they start on new lines.
+Delete the erroneous entries prior to presenting the data.
