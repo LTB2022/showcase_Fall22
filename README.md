@@ -4,6 +4,7 @@ This repository holds the release versions of code and files for the final Littl
 
 Insert descriptions of each file, see the "actionNeeded" file for code and file tasks needing implementation
 
+*Update*: ltb_releaseF_rev2.py: GUI improvements to ltb_releaseF_rev1.py (2022-12-07)
 
 1. "ltb_releaseF_rev1.py" : Tested and integrated Little Time Buddy release code (2022-11-25)
 (Haptics can be uncommented when the hardware is physically and electrically connected)
