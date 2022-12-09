@@ -7,10 +7,10 @@
 import csv          								# Not currently being used, additional ".csv" functionality is available
 import serial
 import gpiozero
-#import RPi.GPIO as GPIO
-#import adafruit_drv2605
-#import busio
-#import board
+import RPi.GPIO as GPIO
+import adafruit_drv2605
+import busio
+import board
 
 import time as t    								# call the time module with "t"
 
@@ -51,10 +51,10 @@ gui_out2 = gpiozero.DigitalOutputDevice(16, active_high=True, initial_value=Fals
 redLED = gpiozero.DigitalOutputDevice(5, active_high=True, initial_value=False)  	# illuinate a red LED to indicate the timestamp operation
 
 # Haptic Feedback Pins
-#b = gpiozero.Buzzer(12)
-#i2c = busio.I2C(board.SCL, board.SDA)
-#drv = adafruit_drv2605.DRV2605(i2c)
-#drv.sequence[0] = adafruit_drv2605.Effect(47)
+b = gpiozero.Buzzer(12)
+i2c = busio.I2C(board.SCL, board.SDA)
+drv = adafruit_drv2605.DRV2605(i2c)
+drv.sequence[0] = adafruit_drv2605.Effect(47)
 
 ################################################################################
 # Python datetime function
@@ -76,11 +76,11 @@ def log(s):
         print(s)
 
 def ViBu_LTB(choice):	# function to call the buzzer and vibration motor. This called from the class StateMachine/function go_to_state
-    #b.on()
-    #drv.play()
-    #t.sleep(.1)
-    #b.off()
-    #drv.stop()
+    b.on()
+    drv.play()
+    t.sleep(.1)
+    b.off()
+    drv.stop()
     pass
 ################################################################################
 # State Machine, creates the state machine and manages states
